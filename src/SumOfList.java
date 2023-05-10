@@ -15,23 +15,6 @@ public class SumOfList {
             myArray.add(input);
         }
 
-//        for (int list : myArray) {
-//            System.out.print(list + ",");
-//        }
-//    }
-//    int sum = getSum(list);
-//    System.out.println("were the items in the list. The sum of that list is: " + sum);
-//
-//            public static int getSum(ArrayList<Integer> numbers) {
-//                int sum = 0;
-//                for (int number : numbers) {
-//                    sum += number;
-//                }
-//                return sum;
-//            }
-//    }
-
-
         for (int i = 0; i < myArray.size(); i++) {
             System.out.print(myArray.get(i));
             if (i < myArray.size() - 1) {
